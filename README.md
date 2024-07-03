@@ -1,60 +1,98 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
 ## About Nexus
+
+Nexus an online platform that allows for it's users to send emergency alerts to medics and store their critical health records allowing for quick and effective responses during emergencies.Nexus is an accessible web platform that aids fast response to emergency for it's users.
 
 Nexus is an online platform that empowers users to send emergency alerts to medical responders and store critical health records, enabling swift and effective responses during emergencies.
 
 Built on Laravel, Nexus leverages the framework's accessibility, power, and robust toolset to deliver a seamless and reliable user experience.
 
-## Learning Nexus
+## Dependencies
+The above system requires the following technologies
 
-To get acquainted with Nexus, visit our comprehensive About page which features all the essential details about the platform.
+- Laravel framework
+- Apache server or Xampp
+- Php composer
+- Preffered IDE
+- Jetstream
+- Github
 
-For those new to Laravel, consider exploring the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-Additionally,  [Laracasts](https://laracasts.com) offers thousands of video tutorials on various topics including Laravel, modern PHP, unit testing, and JavaScript. Enhance your skills by diving into this extensive video library.
+## Installation
+For composer installation click on the link; *(https://getcomposer.org/download/)*
+For the php installation click on the link; *( https://www.php.net/downloads)*
+
+## Install Laravel
+After installing php and composer, use the command below to create a new laravel project
+
+ ```
+  Composer create-project laravel/laravel example-app
+  ```
+
+Alternertively, you may install laravel by globally installing the laravel installer via composer
+
+  ```
+  composer global require laravel/installer
+  
+  laravel new example-app
+  ```
+
+Once the project has been created start a local development server using the Artisan serve command
+
+  ```
+  cd example-app
+  php artisan serve
+  ````
+
+Once you have started the Artisan development server,your application will be accessible in your web browser at  http://localhost:8000
+
+## Install Jetstream
+Install jetstream with LiveWire
+```
+php artisan jetstream.install livewire
+```
+Darkmode
+If you would like to include 'dark mode' support when scaffolding your application's frontend provide the --dark directive 
+when executing the jetstream.install command
+```
+php artisan jetstream.install livewire --dark
+
+```
+
+Finalizing the installation
+
+After installing jetstream ,install and build your npm dependencies and migrate your database.
+```
+npm install
+npm run build
+npm artisan migrate
+
+```
+
+### Usage
+1. Clone the repository and cd into it
+2. In your terminal run the command composer install
+3. Rename or copy .env.example file to .env
+4. php artisan key:generate
+5. Set your database credentials in your .env file
+6. Import the db file(nexus)into your database(mysql)
+7. npm install
+8. npm run watch
+9. Edit .env file:Remove APP_URL
+10. php artisan serve or use virtual host
+11. Visit localhost:8000 in your browser
+12. Visit /admin if you want to access the admin panel.
 
 
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-To ensure a welcoming environment within the Laravel community, please review and adhere to the      [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Thank you for considering contributing to the Nexus system! You can add your input to it by accessing the system in git via the following link; (https://github.com/Lionmjr/NEXUS)
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Nexus, please send an e-mail to Peris Mwangi via [perismwangi219@gmail.com] or Austin Wangahu via (jamesaustin632@gmail.com). All security vulnerabilities will be promptly addressed.
 
 ## License
-
-The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Nexus system was developed and released under the [MIT license](https://opensource.org/licenses/MIT).
