@@ -95,4 +95,4 @@ Thank you for considering contributing to the Nexus system! You can add your inp
 If you discover a security vulnerability within Nexus, please send an e-mail to Peris Mwangi via [perismwangi219@gmail.com] or Austin Wangahu via (jamesaustin632@gmail.com). All security vulnerabilities will be promptly addressed.
 
 ## License
-The Nexus system was developed and released under the [MIT license](https://opensource.org/licenses/MIT).
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
