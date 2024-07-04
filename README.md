@@ -16,7 +16,7 @@ The above system requires the following technologies
 - Php composer
 - Preffered IDE
 - Jetstream
-- Github
+
 
 
 ## Installation
